@@ -1,0 +1,12 @@
+
+ Hello <b>{FIRST_NAME} {LAST_NAME}</b>,
+
+ <p>Today you Cross TOLL PLAZA but in your Tag wallet is  In Sufficient  Balance. Please Re charge Your
+ 	Tag Otherwise After Some Days Your Vehicle will be seized.
+ </p><br>
+ 
+  
+ Thanks,<br>
+ ATS Team.<br><br>
+<img src="cid:logoImage" width="200px" height="70px"> 
+    
