@@ -1,0 +1,21 @@
+[INFO] :: 03-51-19 02:51:48 918 [restartedMain]  org.springframework.boot.StartupInfoLogger  55  logStarting  Starting AtsProjectApplication on DESKTOP-NFCMD82 with PID 8320 (E:\Tools\ATS_Project\target\classes started by saumya in E:\Tools\ATS_Project)  
+[INFO] :: 03-51-19 02:51:48 932 [restartedMain]  org.springframework.boot.SpringApplication  651  logStartupProfileInfo  No active profile set, falling back to default profiles: default  
+[INFO] :: 03-52-19 02:52:09 425 [restartedMain]  org.hibernate.jpa.internal.util.LogHelper  31  logPersistenceUnitInformation  HHH000204: Processing PersistenceUnitInfo [name: default]  
+[INFO] :: 03-52-19 02:52:10 714 [restartedMain]  org.hibernate.Version  46  logVersion  HHH000412: Hibernate Core {5.4.8.Final}  
+[INFO] :: 03-52-19 02:52:13 614 [restartedMain]  org.hibernate.annotations.common.reflection.java.JavaReflectionManager  49  <clinit>  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}  
+[INFO] :: 03-52-19 02:52:14 385 [restartedMain]  com.zaxxer.hikari.HikariDataSource  110  getConnection  HikariPool-1 - Starting...  
+[INFO] :: 03-52-19 02:52:19 126 [restartedMain]  com.zaxxer.hikari.pool.PoolBase  527  getAndSetNetworkTimeout  HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)  
+[INFO] :: 03-52-19 02:52:19 177 [restartedMain]  com.zaxxer.hikari.HikariDataSource  123  getConnection  HikariPool-1 - Start completed.  
+[INFO] :: 03-52-19 02:52:19 547 [restartedMain]  org.hibernate.dialect.Dialect  172  <init>  HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect  
+[INFO] :: 03-52-19 02:52:26 533 [restartedMain]  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  52  initiateService  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]  
+[INFO] :: 03-52-19 02:52:29 534 [restartedMain]  org.springframework.boot.StartupInfoLogger  61  logStarted  Started AtsProjectApplication in 41.245 seconds (JVM running for 42.472)  
+[INFO] :: 03-53-19 02:53:15 022 [http-nio-9090-exec-1]  com.st.ats.controllers.UserRegController  53  signUpIndex  form UserRegController signUpIndex() method execution starts  
+[INFO] :: 03-53-19 02:53:15 025 [http-nio-9090-exec-1]  com.st.ats.controllers.UserRegController  60  signUpIndex  form UserRegController signUpIndex() method execution Ends  
+[INFO] :: 03-56-19 02:56:58 712 [http-nio-9090-exec-10]  com.st.ats.controllers.HomePageController  36  getForm  from HomepageController index() method execution starts  
+[INFO] :: 03-56-19 02:56:58 715 [http-nio-9090-exec-10]  com.st.ats.controllers.HomePageController  38  getForm  from HomepageController index() method execution ends  
+[INFO] :: 03-58-19 02:58:16 585 [http-nio-9090-exec-6]  com.st.ats.controllers.UserRegController  53  signUpIndex  form UserRegController signUpIndex() method execution starts  
+[INFO] :: 03-58-19 02:58:16 587 [http-nio-9090-exec-6]  com.st.ats.controllers.UserRegController  60  signUpIndex  form UserRegController signUpIndex() method execution Ends  
+[INFO] :: 03-58-19 02:58:42 253 [http-nio-9090-exec-6]  com.st.ats.service.impl.AtsUserServiceImpl  162  findUserByEmail  findUserByEmail method from AtsUserServiceImpl execution  starts  
+[INFO] :: 03-58-19 02:58:42 597 [http-nio-9090-exec-6]  com.st.ats.service.impl.AtsUserServiceImpl  164  findUserByEmail  findUserByEmail method from AtsUserServiceImpl execution  ends  
+[INFO] :: 03-40-19 03:40:59 922 [RMI TCP Connection(2)-127.0.0.1]  com.zaxxer.hikari.HikariDataSource  350  close  HikariPool-1 - Shutdown initiated...  
+[INFO] :: 03-41-19 03:41:00 002 [RMI TCP Connection(2)-127.0.0.1]  com.zaxxer.hikari.HikariDataSource  352  close  HikariPool-1 - Shutdown completed.  

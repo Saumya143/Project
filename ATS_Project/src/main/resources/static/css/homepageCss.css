@@ -1,0 +1,78 @@
+body {
+	background-image:url("${pageContext.request.contextPath}/images/backg5.jpg") ;
+	margin:8px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+.form-container {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.owl-next {
+	position: relative;
+	top: -263px;
+	right: -773px;
+	font-size: 54px !important;
+	color: #fff !important;
+	z-index:10 !important;
+}
+
+.owl-next:hover, .owl-prev:hover {
+	color: blue !important;
+	cursor: pointer;
+}
+
+.logo {
+	margin-top: 2px;
+    margin-bottom: 2px;
+    box-shadow: 5px 5px 8px 5px #888888;
+    position: relative;
+    left: 13px;
+    top: -6px;
+}
+
+.brandText {
+	font-size: 34px;
+	font-family: monospace;
+	padding-top: 2%;
+}
+
+.owl-prev {
+	position: relative;
+	top: -263px;
+	right: -9px;
+	font-size: 54px !important;
+	color: #fff !important;
+	z-index:10 !important;
+}
+.stage{
+	margin-right:2px !important;
+}
+.owl-item{
+}
+.owl-stage-outer{
+	box-shadow: 5px 5px 8px 5px #888888;
+}
+.footer {
+	text-align: center;
+	color:#fff;
+	z-index:100000 !important;
+}
+.form-control{
+	border-radius: 8px;
+}
+.error {
+	color: red;
+}
+
+.owl-item img {
+	width: 96%;
+	margin: 0 auto;
+	height:400px;
+}
+.header{
+	height:90px;
+	min-height:100px;
+}
