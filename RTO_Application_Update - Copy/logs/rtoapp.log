@@ -1,0 +1,36 @@
+[INFO] :: 11-09-19 01:09:05 818 [restartedMain]  org.springframework.boot.StartupInfoLogger  55  logStarting  Starting RtoApplication on DESKTOP-NFCMD82 with PID 5720 (started by saumya in E:\Tools\RTO_Application_Update - Copy)  
+[INFO] :: 11-09-19 01:09:05 890 [restartedMain]  org.springframework.boot.SpringApplication  651  logStartupProfileInfo  No active profile set, falling back to default profiles: default  
+[INFO] :: 11-09-19 01:09:12 845 [restartedMain]  org.hibernate.jpa.internal.util.LogHelper  31  logPersistenceUnitInformation  HHH000204: Processing PersistenceUnitInfo [name: default]  
+[INFO] :: 11-09-19 01:09:12 969 [restartedMain]  org.hibernate.Version  46  logVersion  HHH000412: Hibernate Core {5.4.6.Final}  
+[INFO] :: 11-09-19 01:09:13 397 [restartedMain]  org.hibernate.annotations.common.reflection.java.JavaReflectionManager  49  <clinit>  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}  
+[INFO] :: 11-09-19 01:09:13 718 [restartedMain]  com.zaxxer.hikari.HikariDataSource  110  getConnection  HikariPool-1 - Starting...  
+[INFO] :: 11-09-19 01:09:15 874 [restartedMain]  com.zaxxer.hikari.pool.PoolBase  527  getAndSetNetworkTimeout  HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)  
+[INFO] :: 11-09-19 01:09:15 879 [restartedMain]  com.zaxxer.hikari.HikariDataSource  123  getConnection  HikariPool-1 - Start completed.  
+[INFO] :: 11-09-19 01:09:16 187 [restartedMain]  org.hibernate.dialect.Dialect  172  <init>  HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect  
+[WARN] :: 11-09-19 01:09:16 960 [restartedMain]  org.hibernate.boot.internal.InFlightMetadataCollectorImpl  489  addIdentifierGenerator  HHH000069: Duplicate generator name ownerId_generator  
+[INFO] :: 11-09-19 01:09:18 553 [restartedMain]  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  52  initiateService  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]  
+[INFO] :: 11-09-19 01:09:20 755 [restartedMain]  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping  69  initHandlerMethods  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]  
+[INFO] :: 11-09-19 01:09:21 312 [restartedMain]  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper  160  start  Context refreshed  
+[INFO] :: 11-09-19 01:09:21 372 [restartedMain]  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper  163  start  Found 1 custom documentation plugin(s)  
+[INFO] :: 11-09-19 01:09:21 424 [restartedMain]  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner  41  scan  Scanning for api listing references  
+[INFO] :: 11-09-19 01:09:21 840 [restartedMain]  org.springframework.boot.StartupInfoLogger  61  logStarted  Started RtoApplication in 17.264 seconds (JVM running for 18.973)  
+[INFO] :: 11-11-19 01:11:28 834 [http-nio-9090-exec-5]  com.transport.rto.rest.resources.exce.handler.RestExceptionhandler  30  excehandle  ***** Exception Occured in Rest Api starts*****  
+[INFO] :: 11-11-19 01:11:28 870 [http-nio-9090-exec-5]  com.transport.rto.rest.resources.exce.handler.RestExceptionhandler  35  excehandle  ***** Exception Occured in Rest Api ends*****  
+[INFO] :: 11-11-19 01:11:58 141 [http-nio-9090-exec-7]  com.transport.rto.controllers.VehicleSummaryController  77  getAllDetails  *****GetAllDetails  method  for VHCLSummaryController  Starts******  
+[INFO] :: 11-11-19 01:11:58 145 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleDetailsServiceImpl  73  getVehicleDetails  *******getVehicleDetails from VehicleDtlsServiceImpl Execution starts *******  
+[INFO] :: 11-11-19 01:11:58 337 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleDetailsServiceImpl  76  getVehicleDetails  *******getVehicleDetails method If Block Called *******  
+[INFO] :: 11-11-19 01:11:58 341 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleDetailsServiceImpl  79  getVehicleDetails  *******getVehicleDetails method If Block completed *******  
+[INFO] :: 11-11-19 01:11:58 341 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleDetailsServiceImpl  81  getVehicleDetails  *******getVehicleDetails from VehicleDtlsServiceImpl Execution ends *******  
+[INFO] :: 11-11-19 01:11:58 341 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleOwnerDetailsServiceImpl  51  findById  *******findById from VehicleOwnerDetailsServiceImpl execution starts *******  
+[INFO] :: 11-11-19 01:11:58 345 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleOwnerDetailsServiceImpl  55  findById  *******findById method  if block starts  *******  
+[INFO] :: 11-11-19 01:11:58 353 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleOwnerDetailsServiceImpl  58  findById  *******findById method if block ended *******  
+[INFO] :: 11-11-19 01:11:58 353 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleOwnerDetailsServiceImpl  60  findById  *******findById from VehicleOwnerDetailsServiceImpl  execution ended *******  
+[INFO] :: 11-11-19 01:11:58 353 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleOwnerAddressServiceImpl  99  findAddrbyOwnerId  ******findAddrbyOwnerId method  from VehicleOwnerAddressServiceImpl is execution Starts*****  
+[INFO] :: 11-11-19 01:11:58 393 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleOwnerAddressServiceImpl  102  findAddrbyOwnerId  ******findAddrbyOwnerId method  if Block execute*****  
+[INFO] :: 11-11-19 01:11:58 397 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleOwnerAddressServiceImpl  105  findAddrbyOwnerId  ******findAddrbyOwnerId method  if Block COmpleted*****  
+[INFO] :: 11-11-19 01:11:58 397 [http-nio-9090-exec-7]  com.transport.rto.services.impl.VehicleOwnerAddressServiceImpl  107  findAddrbyOwnerId  ******findAddrbyOwnerId method  from VehicleOwnerAddressServiceImpl is execution Ends*****  
+[INFO] :: 11-11-19 01:11:58 397 [http-nio-9090-exec-7]  com.transport.rto.controllers.VehicleSummaryController  85  getAllDetails  *****GetAllDetails  method  for VHCLSummaryController  Ends******  
+[INFO] :: 11-15-19 01:15:19 359 [http-nio-9090-exec-5]  com.transport.rto.controllers.VehicleOwnerDetailsController  50  index  *****index  method  for VHCLOwnerDtlsController  Starts******  
+[INFO] :: 11-15-19 01:15:19 363 [http-nio-9090-exec-5]  com.transport.rto.controllers.VehicleOwnerDetailsController  59  index  *****index  method  for VHCLOwnerDtlsController  Ends******  
+[INFO] :: 11-20-19 01:20:35 896 [RMI TCP Connection(2)-127.0.0.1]  com.zaxxer.hikari.HikariDataSource  350  close  HikariPool-1 - Shutdown initiated...  
+[INFO] :: 11-20-19 01:20:35 963 [RMI TCP Connection(2)-127.0.0.1]  com.zaxxer.hikari.HikariDataSource  352  close  HikariPool-1 - Shutdown completed.  
