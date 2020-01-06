@@ -1,0 +1,14 @@
+29-Sep-2019 07:13:16 IST[main] TestWeatherForecasterService testGetTemp trace-temprature missmatch 
+29-Sep-2019 07:13:16 IST[main] TestWeatherForecasterService testGetTemp trace-this is the debug message 
+29-Sep-2019 07:13:16 IST[main] TestWeatherForecasterService testGetTemp trace-this is the info message 
+29-Sep-2019 07:15:58 IST[main] TestWeatherForecasterService testGetTemp trace-temprature missmatch 
+29-Sep-2019 07:15:58 IST[main] TestWeatherForecasterService testGetTemp trace-this is the debug messages 
+29-Sep-2019 07:15:58 IST[main] TestWeatherForecasterService testGetTemp trace-this is the info messages 
+29-Sep-2019 07:19:19 IST[main] TestWeatherForecasterService testGetTemp trace-this is the first test case 
+29-Sep-2019 07:19:19 IST[main] TestWeatherForecasterService testGetTemp trace-temprature missmatch 
+29-Sep-2019 07:19:19 IST[main] TestWeatherForecasterService testGetTemp trace-this is the debug messages 
+29-Sep-2019 07:19:19 IST[main] TestWeatherForecasterService testGetTemp trace-this is the info messages 
+10-Oct-2019 04:00:54 IST[main] TestWeatherForecasterService testGetTemp trace-this is the first test case 
+10-Oct-2019 04:00:54 IST[main] TestWeatherForecasterService testGetTemp trace-temprature missmatch 
+10-Oct-2019 04:00:54 IST[main] TestWeatherForecasterService testGetTemp trace-this is the debug messages 
+10-Oct-2019 04:00:54 IST[main] TestWeatherForecasterService testGetTemp trace-this is the info messages 
